@@ -29,3 +29,19 @@ export function sessionStorageItems() {
 
 // The scenario: open the Subjects page; listLibrary loads; this subject card must be visible.
 export const SCENARIO = { path: '/subjects', expectedText: 'Java Programming' }
+
+// Synchronization settings, documented in the README. Each strategy does its sync step and then one
+// immediate check (no hidden retries), except the explicit wait, whose sync step is the check itself.
+export const SETTINGS = {
+  implicitWaitMs: 5000, // Selenium implicit wait
+  explicitTimeoutMs: 10000, // Selenium WebDriverWait timeout
+  fixedWaitMs: 1000, // Cypress cy.wait(ms)
+  networkTimeoutMs: 10000, // Cypress cy.wait('@listLibrary') timeout
+  pageLoadTimeoutMs: 30000,
+}
+
+// Browser-side: how long the delayed request took, from the browser's resource timing (found by the
+// Server-Timing name the server adds). Empty when the request didn't happen.
+export const REQUEST_MS_SCRIPT = `
+  const e = performance.getEntriesByType('resource').find((r) => (r.serverTiming || []).some((t) => t.name === '${DELAYED_ACTION}'))
+  return e ? Math.round(e.responseEnd - e.startTime) : null`

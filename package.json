@@ -6,7 +6,14 @@
   "description": "An empirical comparison of Selenium and Cypress synchronization strategies under network latency (MCA Semester 3 research project).",
   "scripts": {
     "build-app": "node scripts/build-app.mjs",
-    "server": "node backend/server.mjs"
+    "server": "node backend/server.mjs",
+    "selenium": "node suites/selenium.mjs",
+    "cypress:open": "node scripts/cypress.mjs open",
+    "cypress:run": "node scripts/cypress.mjs run"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^16.1.1",
+    "selenium-webdriver": "^4.50.0"
+  }
 }

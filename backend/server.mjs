@@ -56,7 +56,9 @@ http
         }
         const out = runtime.post(body)
         const delay = action === DELAYED_ACTION ? latencyMs : 0
-        setTimeout(() => res.writeHead(200, { 'Content-Type': 'application/json' }).end(out), delay)
+        // Server-Timing names the action, so tests can find this request in the browser's timing data.
+        const headers = { 'Content-Type': 'application/json', 'Server-Timing': `${action || 'unknown'};dur=${delay}` }
+        setTimeout(() => res.writeHead(200, headers).end(out), delay)
       })
       return
     }
