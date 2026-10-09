@@ -1,12 +1,16 @@
 // The scenario for both Cypress suites. `sync` is the strategy's synchronization step; after it comes
-// one immediate check ({ timeout: 0 } = no retrying), the same check the Selenium suites make.
+// the check. checkMode "strict" (main experiment): one immediate check ({ timeout: 0 }, no retrying),
+// like the Selenium suites. checkMode "retry": Cypress's default assertion retry (4 s), how Cypress
+// tests are usually written.
 export function defineRuns({ strategy, label, sync, setup = () => {} }) {
   const env = Cypress.expose()
   const runs = Number(env.runs ?? 1)
   const latencyMs = Number(env.latency ?? 0)
+  const checkMode = env.checkMode === 'retry' ? 'retry' : 'strict'
+  const checkTimeout = checkMode === 'retry' ? 4000 : 0
   const { scenario } = env
 
-  describe(`${label} @ ${latencyMs} ms`, () => {
+  describe(`${label} (${checkMode}) @ ${latencyMs} ms`, () => {
     let t0 = 0
     let startedAt = ''
     let durationMs = null
@@ -28,7 +32,7 @@ export function defineRuns({ strategy, label, sync, setup = () => {} }) {
           },
         })
         sync()
-        cy.contains('main *', scenario.expectedText, { timeout: 0, matchCase: true }).should('be.visible')
+        cy.contains('main *', scenario.expectedText, { timeout: checkTimeout, matchCase: true }).should('be.visible')
         cy.then(() => (durationMs = Math.round(performance.now() - t0)))
       })
     }
@@ -46,7 +50,9 @@ export function defineRuns({ strategy, label, sync, setup = () => {} }) {
         cy.task('record', {
           framework: 'cypress',
           strategy,
-          label,
+          checkMode,
+          label: checkMode === 'retry' ? `${label} (retry)` : label,
+          browser: `${Cypress.browser.name} ${Cypress.browser.version}`,
           latencyMs,
           run: Number(test.title.replace('run ', '')),
           runs,

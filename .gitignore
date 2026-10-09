@@ -2,3 +2,5 @@ node_modules
 app-dist
 cypress/videos
 cypress/screenshots
+results/*.previous-*.csv
+results/.cypress-batch.jsonl

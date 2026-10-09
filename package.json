@@ -9,7 +9,9 @@
     "server": "node backend/server.mjs",
     "selenium": "node suites/selenium.mjs",
     "cypress:open": "node scripts/cypress.mjs open",
-    "cypress:run": "node scripts/cypress.mjs run"
+    "cypress:run": "node scripts/cypress.mjs run",
+    "experiment": "node scripts/run-experiment.mjs",
+    "summarize": "node scripts/summarize.mjs"
   },
   "license": "MIT",
   "devDependencies": {
