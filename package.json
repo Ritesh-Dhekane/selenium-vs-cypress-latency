@@ -1,0 +1,12 @@
+{
+  "name": "selenium-vs-cypress-latency",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An empirical comparison of Selenium and Cypress synchronization strategies under network latency (MCA Semester 3 research project).",
+  "scripts": {
+    "build-app": "node scripts/build-app.mjs",
+    "server": "node backend/server.mjs"
+  },
+  "license": "MIT"
+}
