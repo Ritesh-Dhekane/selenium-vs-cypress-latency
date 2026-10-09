@@ -1,0 +1,341 @@
+Experiment: 6 configurations × 5 latencies × 10 runs = 300 runs (visible browser)
+
+[Selenium Implicit | 0ms | Run 1/10] PASS - 481ms
+[Selenium Implicit | 0ms | Run 2/10] PASS - 406ms
+[Selenium Implicit | 0ms | Run 3/10] PASS - 401ms
+[Selenium Implicit | 0ms | Run 4/10] PASS - 404ms
+[Selenium Implicit | 0ms | Run 5/10] PASS - 404ms
+[Selenium Implicit | 0ms | Run 6/10] PASS - 404ms
+[Selenium Implicit | 0ms | Run 7/10] PASS - 391ms
+[Selenium Implicit | 0ms | Run 8/10] PASS - 436ms
+[Selenium Implicit | 0ms | Run 9/10] PASS - 403ms
+[Selenium Implicit | 0ms | Run 10/10] PASS - 421ms
+[Selenium Explicit | 0ms | Run 1/10] PASS - 604ms
+[Selenium Explicit | 0ms | Run 2/10] PASS - 535ms
+[Selenium Explicit | 0ms | Run 3/10] PASS - 526ms
+[Selenium Explicit | 0ms | Run 4/10] PASS - 536ms
+[Selenium Explicit | 0ms | Run 5/10] PASS - 523ms
+[Selenium Explicit | 0ms | Run 6/10] PASS - 519ms
+[Selenium Explicit | 0ms | Run 7/10] PASS - 515ms
+[Selenium Explicit | 0ms | Run 8/10] PASS - 525ms
+[Selenium Explicit | 0ms | Run 9/10] PASS - 554ms
+[Selenium Explicit | 0ms | Run 10/10] PASS - 538ms
+[Cypress Explicit | 0ms | Run 1/10] PASS - 1324ms
+[Cypress Explicit | 0ms | Run 2/10] PASS - 1146ms
+[Cypress Explicit | 0ms | Run 3/10] PASS - 1199ms
+[Cypress Explicit | 0ms | Run 4/10] PASS - 1167ms
+[Cypress Explicit | 0ms | Run 5/10] PASS - 1139ms
+[Cypress Explicit | 0ms | Run 6/10] PASS - 1160ms
+[Cypress Explicit | 0ms | Run 7/10] PASS - 1143ms
+[Cypress Explicit | 0ms | Run 8/10] PASS - 1138ms
+[Cypress Explicit | 0ms | Run 9/10] PASS - 1162ms
+[Cypress Explicit | 0ms | Run 10/10] PASS - 1133ms
+[Cypress Network | 0ms | Run 1/10] FAIL - 404ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 0ms | Run 2/10] FAIL - 184ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 0ms | Run 3/10] FAIL - 278ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 0ms | Run 4/10] FAIL - 220ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 0ms | Run 5/10] FAIL - 206ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 0ms | Run 6/10] FAIL - 215ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 0ms | Run 7/10] FAIL - 165ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 0ms | Run 8/10] FAIL - 212ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 0ms | Run 9/10] FAIL - 237ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 0ms | Run 10/10] FAIL - 232ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit (retry) | 0ms | Run 1/10] PASS - 1325ms
+[Cypress Explicit (retry) | 0ms | Run 2/10] PASS - 1157ms
+[Cypress Explicit (retry) | 0ms | Run 3/10] PASS - 1204ms
+[Cypress Explicit (retry) | 0ms | Run 4/10] PASS - 1124ms
+[Cypress Explicit (retry) | 0ms | Run 5/10] PASS - 1122ms
+[Cypress Explicit (retry) | 0ms | Run 6/10] PASS - 1138ms
+[Cypress Explicit (retry) | 0ms | Run 7/10] PASS - 1144ms
+[Cypress Explicit (retry) | 0ms | Run 8/10] PASS - 1113ms
+[Cypress Explicit (retry) | 0ms | Run 9/10] PASS - 1177ms
+[Cypress Explicit (retry) | 0ms | Run 10/10] PASS - 1162ms
+[Cypress Network (retry) | 0ms | Run 1/10] PASS - 719ms
+[Cypress Network (retry) | 0ms | Run 2/10] PASS - 499ms
+[Cypress Network (retry) | 0ms | Run 3/10] PASS - 510ms
+[Cypress Network (retry) | 0ms | Run 4/10] PASS - 456ms
+[Cypress Network (retry) | 0ms | Run 5/10] PASS - 457ms
+[Cypress Network (retry) | 0ms | Run 6/10] PASS - 452ms
+[Cypress Network (retry) | 0ms | Run 7/10] PASS - 438ms
+[Cypress Network (retry) | 0ms | Run 8/10] PASS - 455ms
+[Cypress Network (retry) | 0ms | Run 9/10] PASS - 481ms
+[Cypress Network (retry) | 0ms | Run 10/10] PASS - 490ms
+[Selenium Implicit | 500ms | Run 1/10] PASS - 702ms
+[Selenium Implicit | 500ms | Run 2/10] PASS - 606ms
+[Selenium Implicit | 500ms | Run 3/10] PASS - 603ms
+[Selenium Implicit | 500ms | Run 4/10] PASS - 625ms
+[Selenium Implicit | 500ms | Run 5/10] PASS - 611ms
+[Selenium Implicit | 500ms | Run 6/10] PASS - 591ms
+[Selenium Implicit | 500ms | Run 7/10] PASS - 603ms
+[Selenium Implicit | 500ms | Run 8/10] PASS - 628ms
+[Selenium Implicit | 500ms | Run 9/10] PASS - 620ms
+[Selenium Implicit | 500ms | Run 10/10] PASS - 630ms
+[Selenium Explicit | 500ms | Run 1/10] PASS - 835ms
+[Selenium Explicit | 500ms | Run 2/10] PASS - 743ms
+[Selenium Explicit | 500ms | Run 3/10] PASS - 727ms
+[Selenium Explicit | 500ms | Run 4/10] PASS - 732ms
+[Selenium Explicit | 500ms | Run 5/10] PASS - 723ms
+[Selenium Explicit | 500ms | Run 6/10] PASS - 715ms
+[Selenium Explicit | 500ms | Run 7/10] PASS - 740ms
+[Selenium Explicit | 500ms | Run 8/10] PASS - 745ms
+[Selenium Explicit | 500ms | Run 9/10] PASS - 724ms
+[Selenium Explicit | 500ms | Run 10/10] PASS - 738ms
+[Cypress Explicit | 500ms | Run 1/10] PASS - 1308ms
+[Cypress Explicit | 500ms | Run 2/10] PASS - 1106ms
+[Cypress Explicit | 500ms | Run 3/10] PASS - 1150ms
+[Cypress Explicit | 500ms | Run 4/10] PASS - 1133ms
+[Cypress Explicit | 500ms | Run 5/10] PASS - 1135ms
+[Cypress Explicit | 500ms | Run 6/10] PASS - 1144ms
+[Cypress Explicit | 500ms | Run 7/10] PASS - 1136ms
+[Cypress Explicit | 500ms | Run 8/10] PASS - 1114ms
+[Cypress Explicit | 500ms | Run 9/10] PASS - 1192ms
+[Cypress Explicit | 500ms | Run 10/10] PASS - 1113ms
+[Cypress Network | 500ms | Run 1/10] PASS - 929ms
+[Cypress Network | 500ms | Run 2/10] FAIL - 773ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 500ms | Run 3/10] PASS - 681ms
+[Cypress Network | 500ms | Run 4/10] FAIL - 730ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 500ms | Run 5/10] PASS - 671ms
+[Cypress Network | 500ms | Run 6/10] PASS - 761ms
+[Cypress Network | 500ms | Run 7/10] PASS - 723ms
+[Cypress Network | 500ms | Run 8/10] PASS - 681ms
+[Cypress Network | 500ms | Run 9/10] PASS - 689ms
+[Cypress Network | 500ms | Run 10/10] PASS - 675ms
+[Cypress Explicit (retry) | 500ms | Run 1/10] PASS - 1337ms
+[Cypress Explicit (retry) | 500ms | Run 2/10] PASS - 1169ms
+[Cypress Explicit (retry) | 500ms | Run 3/10] PASS - 1131ms
+[Cypress Explicit (retry) | 500ms | Run 4/10] PASS - 1119ms
+[Cypress Explicit (retry) | 500ms | Run 5/10] PASS - 1181ms
+[Cypress Explicit (retry) | 500ms | Run 6/10] PASS - 1144ms
+[Cypress Explicit (retry) | 500ms | Run 7/10] PASS - 1132ms
+[Cypress Explicit (retry) | 500ms | Run 8/10] PASS - 1104ms
+[Cypress Explicit (retry) | 500ms | Run 9/10] PASS - 1161ms
+[Cypress Explicit (retry) | 500ms | Run 10/10] PASS - 1163ms
+[Cypress Network (retry) | 500ms | Run 1/10] PASS - 904ms
+[Cypress Network (retry) | 500ms | Run 2/10] PASS - 830ms
+[Cypress Network (retry) | 500ms | Run 3/10] PASS - 676ms
+[Cypress Network (retry) | 500ms | Run 4/10] PASS - 741ms
+[Cypress Network (retry) | 500ms | Run 5/10] PASS - 736ms
+[Cypress Network (retry) | 500ms | Run 6/10] PASS - 694ms
+[Cypress Network (retry) | 500ms | Run 7/10] PASS - 712ms
+[Cypress Network (retry) | 500ms | Run 8/10] PASS - 682ms
+[Cypress Network (retry) | 500ms | Run 9/10] PASS - 714ms
+[Cypress Network (retry) | 500ms | Run 10/10] PASS - 658ms
+[Selenium Implicit | 1000ms | Run 1/10] PASS - 1199ms
+[Selenium Implicit | 1000ms | Run 2/10] PASS - 1094ms
+[Selenium Implicit | 1000ms | Run 3/10] PASS - 1126ms
+[Selenium Implicit | 1000ms | Run 4/10] PASS - 1134ms
+[Selenium Implicit | 1000ms | Run 5/10] PASS - 1083ms
+[Selenium Implicit | 1000ms | Run 6/10] PASS - 1129ms
+[Selenium Implicit | 1000ms | Run 7/10] PASS - 1108ms
+[Selenium Implicit | 1000ms | Run 8/10] PASS - 1130ms
+[Selenium Implicit | 1000ms | Run 9/10] PASS - 1101ms
+[Selenium Implicit | 1000ms | Run 10/10] PASS - 1123ms
+[Selenium Explicit | 1000ms | Run 1/10] PASS - 1220ms
+[Selenium Explicit | 1000ms | Run 2/10] PASS - 1165ms
+[Selenium Explicit | 1000ms | Run 3/10] PASS - 1175ms
+[Selenium Explicit | 1000ms | Run 4/10] PASS - 1170ms
+[Selenium Explicit | 1000ms | Run 5/10] PASS - 1189ms
+[Selenium Explicit | 1000ms | Run 6/10] PASS - 1180ms
+[Selenium Explicit | 1000ms | Run 7/10] PASS - 1172ms
+[Selenium Explicit | 1000ms | Run 8/10] PASS - 1179ms
+[Selenium Explicit | 1000ms | Run 9/10] PASS - 1185ms
+[Selenium Explicit | 1000ms | Run 10/10] PASS - 1177ms
+[Cypress Explicit | 1000ms | Run 1/10] FAIL - 1381ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1000ms | Run 2/10] FAIL - 1167ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1000ms | Run 3/10] FAIL - 1146ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1000ms | Run 4/10] FAIL - 1144ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1000ms | Run 5/10] FAIL - 1151ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1000ms | Run 6/10] FAIL - 1152ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1000ms | Run 7/10] FAIL - 1160ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1000ms | Run 8/10] FAIL - 1143ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1000ms | Run 9/10] FAIL - 1224ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1000ms | Run 10/10] FAIL - 1139ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 1000ms | Run 1/10] PASS - 1407ms
+[Cypress Network | 1000ms | Run 2/10] PASS - 1260ms
+[Cypress Network | 1000ms | Run 3/10] PASS - 1247ms
+[Cypress Network | 1000ms | Run 4/10] PASS - 1177ms
+[Cypress Network | 1000ms | Run 5/10] PASS - 1172ms
+[Cypress Network | 1000ms | Run 6/10] PASS - 1255ms
+[Cypress Network | 1000ms | Run 7/10] PASS - 1216ms
+[Cypress Network | 1000ms | Run 8/10] PASS - 1214ms
+[Cypress Network | 1000ms | Run 9/10] FAIL - 1185ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 1000ms | Run 10/10] PASS - 1157ms
+[Cypress Explicit (retry) | 1000ms | Run 1/10] PASS - 1404ms
+[Cypress Explicit (retry) | 1000ms | Run 2/10] PASS - 1208ms
+[Cypress Explicit (retry) | 1000ms | Run 3/10] PASS - 1197ms
+[Cypress Explicit (retry) | 1000ms | Run 4/10] PASS - 1189ms
+[Cypress Explicit (retry) | 1000ms | Run 5/10] PASS - 1152ms
+[Cypress Explicit (retry) | 1000ms | Run 6/10] PASS - 1183ms
+[Cypress Explicit (retry) | 1000ms | Run 7/10] PASS - 1170ms
+[Cypress Explicit (retry) | 1000ms | Run 8/10] PASS - 1163ms
+[Cypress Explicit (retry) | 1000ms | Run 9/10] PASS - 1271ms
+[Cypress Explicit (retry) | 1000ms | Run 10/10] PASS - 1166ms
+[Cypress Network (retry) | 1000ms | Run 1/10] PASS - 1448ms
+[Cypress Network (retry) | 1000ms | Run 2/10] PASS - 1282ms
+[Cypress Network (retry) | 1000ms | Run 3/10] PASS - 1245ms
+[Cypress Network (retry) | 1000ms | Run 4/10] PASS - 1236ms
+[Cypress Network (retry) | 1000ms | Run 5/10] PASS - 1187ms
+[Cypress Network (retry) | 1000ms | Run 6/10] PASS - 1273ms
+[Cypress Network (retry) | 1000ms | Run 7/10] PASS - 1213ms
+[Cypress Network (retry) | 1000ms | Run 8/10] PASS - 1206ms
+[Cypress Network (retry) | 1000ms | Run 9/10] PASS - 1182ms
+[Cypress Network (retry) | 1000ms | Run 10/10] PASS - 1248ms
+[Selenium Implicit | 1500ms | Run 1/10] PASS - 1663ms
+[Selenium Implicit | 1500ms | Run 2/10] PASS - 1616ms
+[Selenium Implicit | 1500ms | Run 3/10] PASS - 1589ms
+[Selenium Implicit | 1500ms | Run 4/10] PASS - 1605ms
+[Selenium Implicit | 1500ms | Run 5/10] PASS - 1605ms
+[Selenium Implicit | 1500ms | Run 6/10] PASS - 1594ms
+[Selenium Implicit | 1500ms | Run 7/10] PASS - 1602ms
+[Selenium Implicit | 1500ms | Run 8/10] PASS - 1602ms
+[Selenium Implicit | 1500ms | Run 9/10] PASS - 1588ms
+[Selenium Implicit | 1500ms | Run 10/10] PASS - 1602ms
+[Selenium Explicit | 1500ms | Run 1/10] PASS - 1646ms
+[Selenium Explicit | 1500ms | Run 2/10] PASS - 1620ms
+[Selenium Explicit | 1500ms | Run 3/10] PASS - 1603ms
+[Selenium Explicit | 1500ms | Run 4/10] PASS - 1600ms
+[Selenium Explicit | 1500ms | Run 5/10] PASS - 1620ms
+[Selenium Explicit | 1500ms | Run 6/10] PASS - 1624ms
+[Selenium Explicit | 1500ms | Run 7/10] PASS - 1620ms
+[Selenium Explicit | 1500ms | Run 8/10] PASS - 1607ms
+[Selenium Explicit | 1500ms | Run 9/10] PASS - 1615ms
+[Selenium Explicit | 1500ms | Run 10/10] PASS - 1613ms
+[Cypress Explicit | 1500ms | Run 1/10] FAIL - 1396ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1500ms | Run 2/10] FAIL - 1186ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1500ms | Run 3/10] FAIL - 1156ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1500ms | Run 4/10] FAIL - 1141ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1500ms | Run 5/10] FAIL - 1152ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1500ms | Run 6/10] FAIL - 1143ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1500ms | Run 7/10] FAIL - 1145ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1500ms | Run 8/10] FAIL - 1167ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1500ms | Run 9/10] FAIL - 1184ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 1500ms | Run 10/10] FAIL - 1141ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 1500ms | Run 1/10] PASS - 1896ms
+[Cypress Network | 1500ms | Run 2/10] PASS - 1671ms
+[Cypress Network | 1500ms | Run 3/10] PASS - 1708ms
+[Cypress Network | 1500ms | Run 4/10] PASS - 1673ms
+[Cypress Network | 1500ms | Run 5/10] PASS - 1662ms
+[Cypress Network | 1500ms | Run 6/10] PASS - 1705ms
+[Cypress Network | 1500ms | Run 7/10] PASS - 1667ms
+[Cypress Network | 1500ms | Run 8/10] PASS - 1663ms
+[Cypress Network | 1500ms | Run 9/10] PASS - 1661ms
+[Cypress Network | 1500ms | Run 10/10] PASS - 1667ms
+[Cypress Explicit (retry) | 1500ms | Run 1/10] PASS - 1880ms
+[Cypress Explicit (retry) | 1500ms | Run 2/10] PASS - 1699ms
+[Cypress Explicit (retry) | 1500ms | Run 3/10] PASS - 1663ms
+[Cypress Explicit (retry) | 1500ms | Run 4/10] PASS - 1657ms
+[Cypress Explicit (retry) | 1500ms | Run 5/10] PASS - 1653ms
+[Cypress Explicit (retry) | 1500ms | Run 6/10] PASS - 1664ms
+[Cypress Explicit (retry) | 1500ms | Run 7/10] PASS - 1661ms
+[Cypress Explicit (retry) | 1500ms | Run 8/10] PASS - 1652ms
+[Cypress Explicit (retry) | 1500ms | Run 9/10] PASS - 1666ms
+[Cypress Explicit (retry) | 1500ms | Run 10/10] PASS - 1700ms
+[Cypress Network (retry) | 1500ms | Run 1/10] PASS - 1901ms
+[Cypress Network (retry) | 1500ms | Run 2/10] PASS - 1702ms
+[Cypress Network (retry) | 1500ms | Run 3/10] PASS - 1687ms
+[Cypress Network (retry) | 1500ms | Run 4/10] PASS - 1712ms
+[Cypress Network (retry) | 1500ms | Run 5/10] PASS - 1735ms
+[Cypress Network (retry) | 1500ms | Run 6/10] PASS - 1662ms
+[Cypress Network (retry) | 1500ms | Run 7/10] PASS - 1706ms
+[Cypress Network (retry) | 1500ms | Run 8/10] PASS - 1727ms
+[Cypress Network (retry) | 1500ms | Run 9/10] PASS - 1674ms
+[Cypress Network (retry) | 1500ms | Run 10/10] PASS - 1725ms
+[Selenium Implicit | 2000ms | Run 1/10] PASS - 2163ms
+[Selenium Implicit | 2000ms | Run 2/10] PASS - 2130ms
+[Selenium Implicit | 2000ms | Run 3/10] PASS - 2128ms
+[Selenium Implicit | 2000ms | Run 4/10] PASS - 2125ms
+[Selenium Implicit | 2000ms | Run 5/10] PASS - 2128ms
+[Selenium Implicit | 2000ms | Run 6/10] PASS - 2150ms
+[Selenium Implicit | 2000ms | Run 7/10] PASS - 2112ms
+[Selenium Implicit | 2000ms | Run 8/10] PASS - 2083ms
+[Selenium Implicit | 2000ms | Run 9/10] PASS - 2088ms
+[Selenium Implicit | 2000ms | Run 10/10] PASS - 2114ms
+[Selenium Explicit | 2000ms | Run 1/10] PASS - 2259ms
+[Selenium Explicit | 2000ms | Run 2/10] PASS - 2256ms
+[Selenium Explicit | 2000ms | Run 3/10] PASS - 2256ms
+[Selenium Explicit | 2000ms | Run 4/10] PASS - 2093ms
+[Selenium Explicit | 2000ms | Run 5/10] PASS - 2264ms
+[Selenium Explicit | 2000ms | Run 6/10] PASS - 2238ms
+[Selenium Explicit | 2000ms | Run 7/10] PASS - 2247ms
+[Selenium Explicit | 2000ms | Run 8/10] PASS - 2248ms
+[Selenium Explicit | 2000ms | Run 9/10] PASS - 2256ms
+[Selenium Explicit | 2000ms | Run 10/10] PASS - 2242ms
+[Cypress Explicit | 2000ms | Run 1/10] FAIL - 1399ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 2000ms | Run 2/10] FAIL - 1185ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 2000ms | Run 3/10] FAIL - 1159ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 2000ms | Run 4/10] FAIL - 1153ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 2000ms | Run 5/10] FAIL - 1129ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 2000ms | Run 6/10] FAIL - 1136ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 2000ms | Run 7/10] FAIL - 1155ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 2000ms | Run 8/10] FAIL - 1138ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 2000ms | Run 9/10] FAIL - 1151ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Explicit | 2000ms | Run 10/10] FAIL - 1165ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 2000ms | Run 1/10] FAIL - 2424ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 2000ms | Run 2/10] PASS - 2284ms
+[Cypress Network | 2000ms | Run 3/10] PASS - 2227ms
+[Cypress Network | 2000ms | Run 4/10] PASS - 2173ms
+[Cypress Network | 2000ms | Run 5/10] PASS - 2233ms
+[Cypress Network | 2000ms | Run 6/10] PASS - 2213ms
+[Cypress Network | 2000ms | Run 7/10] PASS - 2170ms
+[Cypress Network | 2000ms | Run 8/10] FAIL - 2268ms (Timed out retrying after 0ms: Expected to find content: 'Java Programming' within the selector: 'main *' but never did.)
+[Cypress Network | 2000ms | Run 9/10] PASS - 2180ms
+[Cypress Network | 2000ms | Run 10/10] PASS - 2154ms
+[Cypress Explicit (retry) | 2000ms | Run 1/10] PASS - 2350ms
+[Cypress Explicit (retry) | 2000ms | Run 2/10] PASS - 2268ms
+[Cypress Explicit (retry) | 2000ms | Run 3/10] PASS - 2196ms
+[Cypress Explicit (retry) | 2000ms | Run 4/10] PASS - 2172ms
+[Cypress Explicit (retry) | 2000ms | Run 5/10] PASS - 2202ms
+[Cypress Explicit (retry) | 2000ms | Run 6/10] PASS - 2198ms
+[Cypress Explicit (retry) | 2000ms | Run 7/10] PASS - 2166ms
+[Cypress Explicit (retry) | 2000ms | Run 8/10] PASS - 2132ms
+[Cypress Explicit (retry) | 2000ms | Run 9/10] PASS - 2219ms
+[Cypress Explicit (retry) | 2000ms | Run 10/10] PASS - 2198ms
+[Cypress Network (retry) | 2000ms | Run 1/10] PASS - 2420ms
+[Cypress Network (retry) | 2000ms | Run 2/10] PASS - 2272ms
+[Cypress Network (retry) | 2000ms | Run 3/10] PASS - 2238ms
+[Cypress Network (retry) | 2000ms | Run 4/10] PASS - 2174ms
+[Cypress Network (retry) | 2000ms | Run 5/10] PASS - 2209ms
+[Cypress Network (retry) | 2000ms | Run 6/10] PASS - 2235ms
+[Cypress Network (retry) | 2000ms | Run 7/10] PASS - 2173ms
+[Cypress Network (retry) | 2000ms | Run 8/10] PASS - 2264ms
+[Cypress Network (retry) | 2000ms | Run 9/10] PASS - 2229ms
+[Cypress Network (retry) | 2000ms | Run 10/10] PASS - 2187ms
+
+Finished in 10 min.
+
+┌─────────┬─────────────────────────────────┬────────────┬──────┬──────┬───────────────┬─────────┬───────────┬───────┐
+│ (index) │ config                          │ latency_ms │ runs │ pass │ breakage_rate │ mean_ms │ median_ms │ sd_ms │
+├─────────┼─────────────────────────────────┼────────────┼──────┼──────┼───────────────┼─────────┼───────────┼───────┤
+│ 0       │ 'selenium implicit_wait'        │ 0          │ 10   │ 10   │ '0%'          │ 415     │ 404       │ 26    │
+│ 1       │ 'selenium explicit_wait'        │ 0          │ 10   │ 10   │ '0%'          │ 538     │ 531       │ 26    │
+│ 2       │ 'cypress explicit_wait'         │ 0          │ 10   │ 10   │ '0%'          │ 1171    │ 1153      │ 57    │
+│ 3       │ 'cypress network_wait'          │ 0          │ 10   │ 0    │ '100%'        │ 235     │ 218       │ 67    │
+│ 4       │ 'cypress explicit_wait (retry)' │ 0          │ 10   │ 10   │ '0%'          │ 1167    │ 1151      │ 62    │
+│ 5       │ 'cypress network_wait (retry)'  │ 0          │ 10   │ 10   │ '0%'          │ 496     │ 469       │ 82    │
+│ 6       │ 'selenium implicit_wait'        │ 500        │ 10   │ 10   │ '0%'          │ 622     │ 616       │ 31    │
+│ 7       │ 'selenium explicit_wait'        │ 500        │ 10   │ 10   │ '0%'          │ 742     │ 735       │ 34    │
+│ 8       │ 'cypress explicit_wait'         │ 500        │ 10   │ 10   │ '0%'          │ 1153    │ 1136      │ 60    │
+│ 9       │ 'cypress network_wait'          │ 500        │ 10   │ 8    │ '20%'         │ 731     │ 706       │ 78    │
+│ 10      │ 'cypress explicit_wait (retry)' │ 500        │ 10   │ 10   │ '0%'          │ 1164    │ 1153      │ 65    │
+│ 11      │ 'cypress network_wait (retry)'  │ 500        │ 10   │ 10   │ '0%'          │ 735     │ 713       │ 76    │
+│ 12      │ 'selenium implicit_wait'        │ 1000       │ 10   │ 10   │ '0%'          │ 1123    │ 1125      │ 32    │
+│ 13      │ 'selenium explicit_wait'        │ 1000       │ 10   │ 10   │ '0%'          │ 1181    │ 1178      │ 15    │
+│ 14      │ 'cypress explicit_wait'         │ 1000       │ 10   │ 0    │ '100%'        │ 1181    │ 1152      │ 75    │
+│ 15      │ 'cypress network_wait'          │ 1000       │ 10   │ 9    │ '10%'         │ 1229    │ 1215      │ 72    │
+│ 16      │ 'cypress explicit_wait (retry)' │ 1000       │ 10   │ 10   │ '0%'          │ 1210    │ 1186      │ 76    │
+│ 17      │ 'cypress network_wait (retry)'  │ 1000       │ 10   │ 10   │ '0%'          │ 1252    │ 1241      │ 77    │
+│ 18      │ 'selenium implicit_wait'        │ 1500       │ 10   │ 10   │ '0%'          │ 1607    │ 1602      │ 21    │
+│ 19      │ 'selenium explicit_wait'        │ 1500       │ 10   │ 10   │ '0%'          │ 1617    │ 1618      │ 13    │
+│ 20      │ 'cypress explicit_wait'         │ 1500       │ 10   │ 0    │ '100%'        │ 1181    │ 1154      │ 77    │
+│ 21      │ 'cypress network_wait'          │ 1500       │ 10   │ 10   │ '0%'          │ 1697    │ 1669      │ 72    │
+│ 22      │ 'cypress explicit_wait (retry)' │ 1500       │ 10   │ 10   │ '0%'          │ 1690    │ 1664      │ 69    │
+│ 23      │ 'cypress network_wait (retry)'  │ 1500       │ 10   │ 10   │ '0%'          │ 1723    │ 1709      │ 67    │
+│ 24      │ 'selenium implicit_wait'        │ 2000       │ 10   │ 10   │ '0%'          │ 2122    │ 2127      │ 25    │
+│ 25      │ 'selenium explicit_wait'        │ 2000       │ 10   │ 10   │ '0%'          │ 2236    │ 2252      │ 51    │
+│ 26      │ 'cypress explicit_wait'         │ 2000       │ 10   │ 0    │ '100%'        │ 1177    │ 1154      │ 80    │
+│ 27      │ 'cypress network_wait'          │ 2000       │ 10   │ 8    │ '20%'         │ 2233    │ 2220      │ 80    │
+│ 28      │ 'cypress explicit_wait (retry)' │ 2000       │ 10   │ 10   │ '0%'          │ 2210    │ 2198      │ 61    │
+│ 29      │ 'cypress network_wait (retry)'  │ 2000       │ 10   │ 10   │ '0%'          │ 2240    │ 2232      │ 72    │
+└─────────┴─────────────────────────────────┴────────────┴──────┴──────┴───────────────┴─────────┴───────────┴───────┘
+
+EXPERIMENT COMPLETE. Results saved to results/experiment_results.csv and results/summary.csv. Share these files with Claude to build your Presentation 2.

@@ -11,7 +11,9 @@
     "cypress:open": "node scripts/cypress.mjs open",
     "cypress:run": "node scripts/cypress.mjs run",
     "experiment": "node scripts/run-experiment.mjs",
-    "summarize": "node scripts/summarize.mjs"
+    "summarize": "node scripts/summarize.mjs",
+    "site": "node scripts/serve-site.mjs",
+    "build-site": "node scripts/build-site.mjs"
   },
   "license": "MIT",
   "devDependencies": {

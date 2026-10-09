@@ -4,3 +4,4 @@ cypress/videos
 cypress/screenshots
 results/*.previous-*.csv
 results/.cypress-batch.jsonl
+site-dist
