@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Selenium vs Cypress under network latency — results</title>
+    <meta name="description" content="Empirical comparison of Selenium and Cypress synchronization strategies under network latency: raw runs, breakage rates and execution times." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="wrap">
+        <p class="eyebrow">MCA Semester III · Research project</p>
+        <h1>Selenium vs Cypress under network latency</h1>
+        <p class="lead">An empirical comparison of synchronization strategies: how often each one breaks, and how long it takes, as API latency grows from 0 to 2000 ms.</p>
+        <p class="meta">Ritesh Dhekane (MC25075) · Guide: Nikhil Murkunde · <a href="https://github.com/Ritesh-Dhekane/selenium-vs-cypress-latency">Code &amp; data on GitHub</a> · MIT licensed</p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section id="key" aria-labelledby="key-h">
+        <h2 id="key-h">Key numbers</h2>
+        <div id="kpis" class="kpis" aria-live="polite">Loading results…</div>
+      </section>
+
+      <section aria-labelledby="break-h">
+        <h2 id="break-h">Breakage rate vs latency</h2>
+        <p class="note">Share of runs that failed, per strategy. Lower is better.</p>
+        <label class="toggle"><input type="checkbox" id="show-retry" checked /> Include Cypress “retry” variants</label>
+        <div id="chart-break" class="chart" tabindex="0" role="region" aria-label="Breakage rate chart"></div>
+      </section>
+
+      <section aria-labelledby="time-h">
+        <h2 id="time-h">Execution time vs latency</h2>
+        <p class="note">Mean time from opening the page to the check (all runs), with ± one standard deviation.</p>
+        <div id="chart-time" class="chart" tabindex="0" role="region" aria-label="Execution time chart"></div>
+      </section>
+
+      <section aria-labelledby="sum-h">
+        <h2 id="sum-h">Summary per configuration</h2>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Summary table"><table id="summary"></table></div>
+      </section>
+
+      <section aria-labelledby="runs-h">
+        <h2 id="runs-h">All runs</h2>
+        <div class="filters">
+          <label>Framework <select id="f-framework"><option value="">All</option><option>selenium</option><option>cypress</option></select></label>
+          <label>Latency <select id="f-latency"><option value="">All</option></select></label>
+          <label>Status <select id="f-status"><option value="">All</option><option>PASS</option><option>FAIL</option></select></label>
+          <span id="runs-count" class="note"></span>
+        </div>
+        <div class="table-wrap tall" tabindex="0" role="region" aria-label="All runs table"><table id="runs"></table></div>
+        <p class="downloads">Download: <a href="data/experiment_results.csv">experiment_results.csv</a> · <a href="data/summary.csv">summary.csv</a> · <a href="data/summary.json">summary.json</a></p>
+      </section>
+
+      <section aria-labelledby="method-h" class="prose">
+        <h2 id="method-h">Method</h2>
+        <ul>
+          <li><strong>Application under test:</strong> 2AM Notes Pro (React + Vite), Semester II content, with its real Google Apps Script backend code run locally so latency can be controlled exactly.</li>
+          <li><strong>Scenario (identical in every suite):</strong> open the Subjects page; the app requests the library (<code>listLibrary</code>); the check is that the “Java Programming” card is visible.</li>
+          <li><strong>Latency:</strong> 0, 500, 1000, 1500, 2000 ms added on the server to the <code>listLibrary</code> response — the same for both frameworks.</li>
+          <li><strong>Strategies:</strong> Selenium implicit wait (5 s), Selenium explicit wait (<code>WebDriverWait</code> 10 s), Cypress fixed wait (<code>cy.wait(1000)</code>), Cypress network wait (<code>cy.intercept</code> + <code>cy.wait('@listLibrary')</code>).</li>
+          <li><strong>Check rule:</strong> “strict” — after its wait, each strategy makes one immediate check (the Selenium explicit wait's wait is the check). “retry” — the Cypress suites again with Cypress's default 4 s assertion retry, as Cypress tests are usually written.</li>
+          <li><strong>Runs:</strong> 10 per configuration and latency, each a full page load in a visible Chrome window; time measured inside the test from navigation to the check.</li>
+        </ul>
+        <h2>Limitations</h2>
+        <ul>
+          <li>10 repetitions per configuration (time-constrained), on one Windows machine — treat small differences with care.</li>
+          <li>Latency is added server-side to one request, not with real network shaping.</li>
+          <li>Visible (headed) browsers add rendering time equally to both frameworks.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="wrap foot">Data and code: MIT License © 2026 Ritesh Dhekane. Please cite the repository when reusing the data.</footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
